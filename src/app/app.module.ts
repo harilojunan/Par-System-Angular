@@ -8,6 +8,8 @@ import { FooterComponent } from "./shared/footer/footer.component";
 import { DashboardComponent } from "./shared/dashboard/dashboard.component";
 import { HeaderComponent } from './shared/header/header.component';
 import { ScheduleparSingleComponent } from './component/schedulepar-single/schedulepar-single.component';
+import { ScoreMyParComponent } from './component/score-my-par/score-my-par.component';
+import { EvaluateParComponent } from './component/evaluate-par/evaluate-par.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ScheduleparSingleComponent } from './component/schedulepar-single/sched
     FooterComponent,
     DashboardComponent,
     HeaderComponent,
-    ScheduleparSingleComponent
+    ScheduleparSingleComponent,
+    ScoreMyParComponent,
+    EvaluateParComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
